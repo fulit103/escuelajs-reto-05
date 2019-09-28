@@ -1,6 +1,6 @@
 const $app = document.getElementById('app');
 const $observe = document.getElementById('observe');
-const API = 'https://rickandmortyapi.com/api/character/?page=23';
+const API = 'https://rickandmortyapi.com/api/character/';
 
 const renderCharacters = function (characters){
   let output = characters.map(character => {
